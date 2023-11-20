@@ -28,36 +28,40 @@
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     font-size: .7rem ;
-    letter-spacing: 3px;
+    letter-spacing: 5px;
 }
 
 .tittle{
     color: var(--cor-azulescuro);
     font-family: 'Fraunces', serif;
     font-size: 1.5rem;
+    line-height: 2rem;
 }
 
 .text{
-    line-height: 5px;
+    line-height: 20px;
     color: var(--cor-azulcinza);
     font-family: 'Montserrat', sans-serif;
-    font-size: .93rem;
+    font-size: .8rem;
+
 }
 
 .promocao{
     display: flex;
     color: var(--cor-verde);
     font-family: 'Fraunces', serif;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
+    align-items: center;
 }
 
 span{
     color: var(--cor-azulcinza);
     text-decoration: line-through;
-    font-size: .9rem;
+    font-size: .7rem;
     font-family: 'Montserrat', sans-serif;
     padding-left: 10px;
 }
+
 button{
     background-color: var(--cor-verde);
     padding: 20px;
