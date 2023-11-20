@@ -1,7 +1,8 @@
 :root{
-    --cor-dark-cyan: hsl(158, 36%, 37%);
-    --cor-cream: hsl(30, 38%, 92%);
-    --cor-Very-dark-blue: hsl(212, 21%, 14%);
-    --cor-Dark-grayish-blue: hsl(228, 12%, 48%);
-    --cor-White: hsl(0, 0%, 100%);
+    --cor-verde: hsl(158, 36%, 37%);
+    --cor-creme: hsl(30, 38%, 92%);
+    --cor-azulescuro: hsl(212, 21%, 14%);
+    --cor-azulcinza: hsl(228, 12%, 48%);
+    --cor-branco: hsl(0, 0%, 100%);
+    --cor-verdebutao: hsl(157, 40%, 18%);
 }

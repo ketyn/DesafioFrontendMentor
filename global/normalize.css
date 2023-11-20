@@ -11,6 +11,6 @@ body, html{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--cor-cream);
+    background-color: var(--cor-creme);
     height: 100vh;
 }
