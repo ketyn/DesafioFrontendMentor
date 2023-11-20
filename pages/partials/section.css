@@ -1,6 +1,78 @@
 .conteiner{
-    height: 350px;
-    width: 500px;
-    background-color: var(--cor-White);
+    display: flex;
+    height: 450px;
+    width: 600px;
+    background-color: var(--cor-branco);
+    border-radius: 10px;
+    overflow:hidden;
 }
 
+.img {
+    height: 450px;
+    width: 300px;
+    background-image: url('../../images/image-product-desktop.jpg');
+    background-size: cover;
+}
+
+.info{
+    height: 450px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    gap: 20px;
+}
+
+.perfum{
+    color: var(--cor-azulcinza);
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: .7rem ;
+    letter-spacing: 3px;
+}
+
+.tittle{
+    color: var(--cor-azulescuro);
+    font-family: 'Fraunces', serif;
+    font-size: 1.5rem;
+}
+
+.text{
+    line-height: 5px;
+    color: var(--cor-azulcinza);
+    font-family: 'Montserrat', sans-serif;
+    font-size: .93rem;
+}
+
+.promocao{
+    display: flex;
+    color: var(--cor-verde);
+    font-family: 'Fraunces', serif;
+    font-size: 1.5rem;
+}
+
+span{
+    color: var(--cor-azulcinza);
+    text-decoration: line-through;
+    font-size: .9rem;
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 10px;
+}
+button{
+    background-color: var(--cor-verde);
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: var(--cor-branco);
+    cursor: pointer;
+
+}
+button:hover{
+    background-color: var(--cor-verdebutao);
+}
+
+button img{
+    padding-right: 10px;
+}
