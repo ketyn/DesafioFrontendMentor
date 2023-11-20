@@ -8,6 +8,9 @@
     appearance: none;
 }
 body, html{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: var(--cor-cream);
     height: 100vh;
 }
